@@ -107,6 +107,8 @@ src="https://www.facebook.com/tr?id=2231398828260493&ev=PageView&noscript=1"
     position:relative;
     transition:transform .25s ease, box-shadow .25s ease, filter .25s ease;
     animation:pulse 1.8s ease-in-out infinite;
+    cursor:pointer;
+    border:none;
   }
   .cta-btn:hover{
     transform:translateY(-4px) scale(1.05);
@@ -183,7 +185,7 @@ src="https://www.facebook.com/tr?id=2231398828260493&ev=PageView&noscript=1"
       <span>🎓 Free Education</span>
       <span>⚡ Live Alerts</span>
     </div>
-    <a class="cta-btn" href="https://t.me/+zeH9JNwPmykyZDJl" target="_blank">✈️ JOIN TELEGRAM CHANNEL</a>
+    <a class="cta-btn" href="https://t.me/+zeH9JNwPmykyZDJl" target="_blank" onclick="trackSubscribe(this)">✈️ JOIN TELEGRAM CHANNEL</a>
     <div class="cta-note">✓ Free to Join &nbsp; ✓ No Charges &nbsp; ✓ Instant Access</div>
     <div class="join-count">🔥 18,000+ logon ne abhi join kiya</div>
   </section>
@@ -220,12 +222,23 @@ src="https://www.facebook.com/tr?id=2231398828260493&ev=PageView&noscript=1"
   </section>
 
   <div class="footer-cta">
-    <a class="cta-btn" href="https://t.me/+zeH9JNwPmykyZDJl" target="_blank">✈️ Join Telegram Channel Now</a>
+    <a class="cta-btn" href="https://t.me/+zeH9JNwPmykyZDJl" target="_blank" onclick="trackSubscribe(this)">✈️ Join Telegram Channel Now</a>
   </div>
 
   <footer>
     © 2026 Gautam Jhaa &nbsp;•&nbsp; Made with ❤️ for Indian Traders
   </footer>
+
+  <!-- Subscribe event tracking for both CTA buttons -->
+  <script>
+    function trackSubscribe(el) {
+      if (typeof fbq === 'function') {
+        fbq('track', 'Subscribe');
+      }
+      // link already opens in new tab via target="_blank",
+      // so no need to delay navigation
+    }
+  </script>
 
 </body>
 </html>
