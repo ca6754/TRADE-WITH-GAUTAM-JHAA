@@ -2,241 +2,336 @@
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-<title>Trade With Gautam Jhaa | Official Telegram Channel</title>
-<meta name="description" content="Join karo hamara official Telegram channel - daily stock market analysis, calls, free education aur live alerts.">
-
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1125685513482605');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1125685513482605&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trade With Gautam Jhaa — Official Telegram Channel</title>
+<meta name="description" content="Daily stock market analysis, clear stock calls, free education aur live alerts. Official Telegram channel — free to join.">
+<meta property="og:title" content="Trade With Gautam Jhaa — Official Telegram Channel">
+<meta property="og:description" content="Daily market analysis, stock calls, free education aur live alerts. Free to join.">
+<meta property="og:image" content="https://gutam45.github.io/gutam/photo.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0C1826">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0a0e14;
-    --bg-card:#131a24;
-    --green:#00d68f;
-    --gold:#ffb020;
-    --red:#ff4d4f;
-    --text:#e8edf3;
-    --text-dim:#8a97a8;
-  }
-  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif;}
-  body{background:var(--bg);color:var(--text);}
+    --ink:#0C1826;
+    --ink-2:#12253A;
+    --ink-3:#1B3450;
+    --brass:#D2A548;
+    --brass-deep:#7E5F1E;
+    --paper:#EDE9E0;
+    --mute:#8FA2B6;
+    --up:#3BA97A;
+    --down:#D2605A;
+    --tg:#2AABEE;
 
-  /* ---- TICKER ---- */
-  .ticker{
-    background:#0d1420;
-    border-bottom:1px solid #1c2733;
-    overflow:hidden;
-    white-space:nowrap;
-    padding:8px 0;
-    font-size:13px;
-    position:relative;
-  }
-  .ticker-track{
-    display:inline-block;
-    white-space:nowrap;
-    animation:scroll-ticker 18s linear infinite;
-  }
-  .ticker span{display:inline-block;padding:0 20px;color:var(--green);font-weight:600;}
-  .ticker span.down{color:var(--red);}
-  @keyframes scroll-ticker{
-    0%{transform:translateX(0);}
-    100%{transform:translateX(-50%);}
+    --display:"Bricolage Grotesque", Georgia, serif;
+    --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    --pad:clamp(20px, 5vw, 72px);
+    --rule:1px solid rgba(210,165,72,.22);
   }
 
-  /* ---- HERO ---- */
-  .hero{
-    text-align:center;
-    padding:50px 20px 40px;
-    background:radial-gradient(circle at top, #10202080, transparent 60%);
-  }
-  .live-badge{
-    display:inline-block;
-    background:#0f2a20;
-    color:var(--green);
-    border:1px solid var(--green);
-    padding:5px 14px;
-    border-radius:20px;
-    font-size:12px;
-    font-weight:600;
-    margin-bottom:20px;
-    letter-spacing:.5px;
-  }
-  .hero img{
-    width:110px;height:110px;border-radius:50%;
-    border:3px solid var(--green);
-    object-fit:cover;
-    margin-bottom:12px;
-  }
-  .verified{color:var(--green);font-size:13px;margin-bottom:6px;}
-  .hero h1{
-    font-size:clamp(20px,6.2vw,42px);
-    font-weight:800;
-    margin:10px 0 6px;
-    letter-spacing:1px;
-    white-space:nowrap;
-  }
-  .hero p.sub{color:var(--text-dim);margin-bottom:20px;font-size:15px;}
-  .badges{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:26px;font-size:14px;color:var(--text-dim);}
-
-  .cta-btn{
-    display:inline-block;
-    background:linear-gradient(90deg,var(--green),#00b377);
-    color:#04140d;
-    font-weight:700;
-    padding:16px 34px;
-    border-radius:10px;
-    text-decoration:none;
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--paper);
+    font-family:var(--sans);
     font-size:17px;
-    box-shadow:0 8px 24px -6px rgba(0,214,143,.5);
-    position:relative;
-    transition:transform .25s ease, box-shadow .25s ease, filter .25s ease;
-    animation:pulse 1.8s ease-in-out infinite;
-    cursor:pointer;
-    border:none;
+    line-height:1.6;
+    padding-bottom:env(safe-area-inset-bottom, 0px);
+    overflow-x:hidden;
   }
-  .cta-btn:hover{
-    transform:translateY(-4px) scale(1.05);
-    box-shadow:0 14px 34px -6px rgba(0,214,143,.75);
-    filter:brightness(1.1);
-    animation-play-state:paused;
-  }
-  .cta-btn:active{
-    transform:translateY(-1px) scale(0.98);
-  }
-  @keyframes pulse{
-    0%{box-shadow:0 8px 24px -6px rgba(0,214,143,.5), 0 0 0 0 rgba(0,214,143,.55);}
-    70%{box-shadow:0 8px 24px -6px rgba(0,214,143,.5), 0 0 0 16px rgba(0,214,143,0);}
-    100%{box-shadow:0 8px 24px -6px rgba(0,214,143,.5), 0 0 0 0 rgba(0,214,143,0);}
-  }
-  .cta-note{margin-top:12px;font-size:13px;color:var(--text-dim);}
-  .join-count{margin-top:10px;color:var(--gold);font-size:13px;font-weight:600;}
+  img{max-width:100%; display:block}
+  a{color:inherit}
 
-  /* ---- FEATURES ---- */
-  .features{padding:50px 20px;max-width:1000px;margin:0 auto;text-align:center;}
-  .features h2{font-size:24px;margin-bottom:8px;}
-  .features > p{color:var(--text-dim);margin-bottom:34px;font-size:14px;}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;}
-  .card{
-    background:var(--bg-card);
-    border:1px solid #1c2733;
-    border-radius:14px;
-    padding:26px 18px;
-    text-align:left;
-  }
-  .card .icon{font-size:26px;margin-bottom:10px;}
-  .card h3{font-size:16px;margin-bottom:6px;}
-  .card p{font-size:13px;color:var(--text-dim);line-height:1.5;}
+  .wrap{max-width:1140px; margin:0 auto; padding-left:var(--pad); padding-right:var(--pad)}
 
-  /* ---- DISCLAIMER ---- */
+  /* ---------- ticker tape ---------- */
+  .tape{
+    position:sticky; top:0; z-index:50;
+    background:var(--ink-2);
+    border-bottom:var(--rule);
+    padding-top:env(safe-area-inset-top, 0px);
+    overflow:hidden;
+  }
+  .tape-track{
+    display:flex; width:max-content;
+    animation:slide 38s linear infinite;
+  }
+  .tape-set{display:flex; flex:none}
+  .tick{
+    font-family:var(--mono); font-size:12.5px; letter-spacing:.02em;
+    padding:9px 22px; white-space:nowrap;
+    border-right:1px solid rgba(255,255,255,.06);
+    color:var(--mute);
+  }
+  .tick b{color:var(--paper); font-weight:500; margin-right:9px}
+  .up{color:var(--up)} .down{color:var(--down)}
+  @keyframes slide{from{transform:translateX(0)} to{transform:translateX(-50%)}}
+
+  /* ---------- hero ---------- */
+  .hero{padding:clamp(40px,7vw,86px) 0 clamp(44px,7vw,80px)}
+  .hero-grid{display:grid; gap:clamp(32px,5vw,64px); grid-template-columns:1fr}
+  @media(min-width:900px){
+    .hero-grid{grid-template-columns:1.25fr .75fr; align-items:center}
+  }
+
+  .live{
+    display:inline-flex; align-items:center; gap:9px;
+    font-family:var(--mono); font-size:12px; letter-spacing:.06em;
+    color:var(--brass); margin-bottom:26px;
+  }
+  .dot{width:7px; height:7px; border-radius:50%; background:var(--up); box-shadow:0 0 0 0 rgba(59,169,122,.6); animation:pulse 2.4s ease-out infinite}
+  @keyframes pulse{70%{box-shadow:0 0 0 9px rgba(59,169,122,0)} 100%{box-shadow:0 0 0 0 rgba(59,169,122,0)}}
+
+  h1{
+    font-family:var(--display); font-weight:800;
+    font-size:clamp(44px, 9.5vw, 96px);
+    line-height:.92; letter-spacing:-.025em;
+    margin:0 0 22px;
+  }
+  h1 .line2{color:var(--brass)}
+  .lede{
+    font-size:clamp(17px,2.2vw,20px); color:var(--mute);
+    max-width:46ch; margin:0 0 34px;
+  }
+
+  .cta{
+    display:inline-flex; align-items:center; gap:12px;
+    background:var(--tg); color:#06263A;
+    font-family:var(--sans); font-weight:600; font-size:17px;
+    padding:17px 30px; border-radius:4px; text-decoration:none;
+    transition:transform .15s ease, box-shadow .15s ease;
+    box-shadow:0 8px 24px -10px rgba(42,171,238,.8);
+  }
+  .cta:hover,.cta:focus-visible{transform:translateY(-2px); box-shadow:0 14px 30px -10px rgba(42,171,238,.9)}
+  .cta svg{width:19px; height:19px; flex:none}
+
+  .trust{
+    display:flex; flex-wrap:wrap; gap:8px 20px;
+    font-family:var(--mono); font-size:12.5px; color:var(--mute);
+    margin-top:20px;
+  }
+  .trust span::before{content:"✓ "; color:var(--brass)}
+
+  /* portrait */
+  .portrait{position:relative; max-width:330px; margin:0 auto; width:100%}
+  .portrait img{
+    width:100%; aspect-ratio:1/1; object-fit:cover;
+    border-radius:3px; filter:saturate(.92) contrast(1.04);
+  }
+  .portrait::after{
+    content:""; position:absolute; inset:-10px;
+    border:1px solid rgba(210,165,72,.45); border-radius:3px; pointer-events:none;
+  }
+  .plate{
+    position:absolute; left:-10px; bottom:-26px;
+    background:var(--brass); color:#1A1204;
+    font-family:var(--mono); font-size:12px; letter-spacing:.02em;
+    padding:9px 15px; border-radius:2px; white-space:nowrap;
+  }
+
+  /* ---------- section frame ---------- */
+  section{border-top:var(--rule)}
+  .sec-head{padding:clamp(40px,6vw,72px) 0 8px}
+  h2{
+    font-family:var(--display); font-weight:800;
+    font-size:clamp(28px,4.4vw,44px); line-height:1.05;
+    letter-spacing:-.02em; margin:0 0 12px;
+  }
+  .sec-sub{color:var(--mute); margin:0; max-width:52ch}
+
+  /* ---------- ledger list ---------- */
+  .ledger{margin:clamp(24px,4vw,40px) 0 clamp(44px,6vw,80px); border-top:var(--rule)}
+  .row{
+    display:grid; grid-template-columns:1fr; gap:6px;
+    padding:26px 0; border-bottom:var(--rule);
+  }
+  @media(min-width:760px){
+    .row{grid-template-columns:200px 1fr 130px; gap:32px; align-items:baseline}
+    .row .when{text-align:right}
+  }
+  .row h3{
+    font-family:var(--display); font-weight:500;
+    font-size:21px; letter-spacing:-.01em; margin:0; color:var(--paper);
+  }
+  .row p{margin:0; color:var(--mute); font-size:16px; max-width:56ch}
+  .when{font-family:var(--mono); font-size:12.5px; color:var(--brass)}
+
+  /* ---------- day strip ---------- */
+  .day{padding-bottom:clamp(44px,6vw,80px)}
+  .day-grid{display:grid; gap:1px; background:rgba(210,165,72,.2); border:var(--rule); margin-top:clamp(24px,4vw,36px)}
+  @media(min-width:760px){.day-grid{grid-template-columns:repeat(3,1fr)}}
+  .slot{background:var(--ink); padding:26px 24px}
+  .slot .t{font-family:var(--mono); font-size:13px; color:var(--brass); display:block; margin-bottom:10px}
+  .slot strong{display:block; font-family:var(--display); font-weight:500; font-size:19px; margin-bottom:6px}
+  .slot p{margin:0; color:var(--mute); font-size:15px}
+
+  /* ---------- closing ---------- */
+  .close{padding:clamp(52px,8vw,96px) 0; text-align:center}
+  .close h2{max-width:20ch; margin-inline:auto}
+  .close p{color:var(--mute); max-width:44ch; margin:0 auto 32px}
+
   .disclaimer{
-    max-width:700px;margin:40px auto;padding:20px;
-    background:#1a1408;border:1px solid #3a2c0f;border-radius:10px;
-    font-size:12.5px;color:var(--text-dim);line-height:1.6;
+    border:var(--rule); border-radius:3px;
+    padding:22px 24px; margin:0 0 clamp(44px,6vw,72px);
+    font-size:14.5px; line-height:1.65; color:var(--mute);
+    max-width:76ch;
   }
-  .disclaimer strong{color:var(--gold);}
+  .disclaimer b{color:var(--paper); font-weight:600}
 
-  /* ---- FOOTER CTA ---- */
-  .footer-cta{text-align:center;padding:40px 20px;}
-  footer{text-align:center;padding:24px;color:var(--text-dim);font-size:12px;border-top:1px solid #1c2733;}
+  footer{
+    border-top:var(--rule); padding:26px 0 40px;
+    font-family:var(--mono); font-size:12px; color:var(--mute);
+    display:flex; flex-wrap:wrap; gap:10px 24px; justify-content:space-between;
+  }
+  footer a{color:var(--brass); text-decoration:none}
+  footer a:hover{text-decoration:underline}
+
+  :focus-visible{outline:2px solid var(--brass); outline-offset:3px; border-radius:2px}
+
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation:none !important; transition:none !important}
+    html{scroll-behavior:auto}
+  }
 </style>
 </head>
 <body>
 
-  <div class="ticker">
-    <div class="ticker-track">
-      <span>NIFTY ▲ 0.82%</span>
-      <span>BANK NIFTY ▲ 1.15%</span>
-      <span class="down">SENSEX ▼ 0.34%</span>
-      <span>FINNIFTY ▲ 0.91%</span>
-      <span>MIDCAP ▲ 0.62%</span>
-      <span>NIFTY ▲ 0.82%</span>
-      <span>BANK NIFTY ▲ 1.15%</span>
-      <span class="down">SENSEX ▼ 0.34%</span>
-      <span>FINNIFTY ▲ 0.91%</span>
-      <span>MIDCAP ▲ 0.62%</span>
+<!-- ticker tape -->
+<div class="tape" aria-hidden="true">
+  <div class="tape-track">
+    <div class="tape-set">
+      <span class="tick"><b>NIFTY</b> 24,836.30 <span class="up">▲ 0.82%</span></span>
+      <span class="tick"><b>BANK NIFTY</b> 54,120.75 <span class="up">▲ 1.15%</span></span>
+      <span class="tick"><b>SENSEX</b> 81,204.10 <span class="down">▼ 0.34%</span></span>
+      <span class="tick"><b>FINNIFTY</b> 23,410.55 <span class="up">▲ 0.91%</span></span>
+      <span class="tick"><b>MIDCAP</b> 12,988.40 <span class="up">▲ 0.62%</span></span>
+      <span class="tick"><b>INDIA VIX</b> 11.24 <span class="down">▼ 2.10%</span></span>
+    </div>
+    <div class="tape-set">
+      <span class="tick"><b>NIFTY</b> 24,836.30 <span class="up">▲ 0.82%</span></span>
+      <span class="tick"><b>BANK NIFTY</b> 54,120.75 <span class="up">▲ 1.15%</span></span>
+      <span class="tick"><b>SENSEX</b> 81,204.10 <span class="down">▼ 0.34%</span></span>
+      <span class="tick"><b>FINNIFTY</b> 23,410.55 <span class="up">▲ 0.91%</span></span>
+      <span class="tick"><b>MIDCAP</b> 12,988.40 <span class="up">▲ 0.62%</span></span>
+      <span class="tick"><b>INDIA VIX</b> 11.24 <span class="down">▼ 2.10%</span></span>
     </div>
   </div>
+</div>
 
-  <section class="hero">
-    <div class="live-badge">● CHANNEL LIVE &amp; ACTIVE</div>
-    <br>
-    <img src="photo.jpg" alt="Gautam Jhaa - Stock Market Analyst">
-    <div class="verified">✓ Official Telegram Channel</div>
-    <h1>TRADE WITH GAUTAM JHAA</h1>
-    <p class="sub">Stock Market Analysis • Indian Markets</p>
-    <div class="badges">
-      <span>📊 Daily Analysis</span>
-      <span>🎓 Free Education</span>
-      <span>⚡ Live Alerts</span>
-    </div>
-    <a class="cta-btn" href="https://t.me/+zcazL2r0BUdiYWVh" target="_blank" onclick="trackSubscribe(this)">✈️ JOIN TELEGRAM CHANNEL</a>
-    <div class="cta-note">✓ Free to Join &nbsp; ✓ No Charges &nbsp; ✓ Instant Access</div>
-    <div class="join-count">🔥 18,000+ logon ne abhi join kiya</div>
-  </section>
+<!-- hero -->
+<header class="hero wrap">
+  <div class="hero-grid">
+    <div>
+      <p class="live"><span class="dot"></span> Channel live · abhi 18,000+ log jude hain</p>
+      <h1>Trade With<br><span class="line2">Gautam Jhaa</span></h1>
+      <p class="lede">Indian markets ka roz ka analysis, saaf-saaf entry–target–stoploss, aur trading ki basics se advanced tak free learning. Sab kuch ek Telegram channel par.</p>
 
-  <section class="features">
-    <h2>WHAT YOU GET</h2>
-    <p>Everything you need to trade smarter, in one place.</p>
-    <div class="grid">
-      <div class="card">
-        <div class="icon">📈</div>
-        <h3>Daily Market Analysis</h3>
-        <p>Pre-market & post-market breakdowns every trading day.</p>
-      </div>
-      <div class="card">
-        <div class="icon">🎯</div>
-        <h3>Stock Calls</h3>
-        <p>Clear entry, target & stop-loss levels.</p>
-      </div>
-      <div class="card">
-        <div class="icon">📚</div>
-        <h3>Free Education</h3>
-        <p>Learn trading from basics to advanced.</p>
-      </div>
-      <div class="card">
-        <div class="icon">⚡</div>
-        <h3>Market Updates</h3>
-        <p>Instant alerts when opportunities arise.</p>
-      </div>
+      <a class="cta" href="https://t.me/+nrCpw6_akloyNzRl" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.6 20c-.25 1.1-.9 1.37-1.83.85l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1.02.5l.36-5.15L17.4 6.4c.4-.36-.09-.56-.63-.2L6.2 12.9l-5-1.56c-1.08-.34-1.1-1.08.23-1.6l19.55-7.53c.9-.33 1.69.2 1.4 2.09z"/></svg>
+        Telegram channel join karein
+      </a>
+
+      <p class="trust"><span>Bilkul free</span> <span>Koi charge nahi</span> <span>Instant access</span></p>
     </div>
 
-    <div class="disclaimer">
-      <strong>⚠ Disclaimer:</strong> All content shared on this channel is purely for educational and informational purposes. Trading in stocks and derivatives involves risk. Please consult a SEBI-registered financial advisor before making investment decisions.
+    <div class="portrait">
+      <img src="https://gutam45.github.io/gutam/photo.jpg" alt="Gautam Jhaa, stock market analyst" width="600" height="600">
+      <span class="plate">Official channel</span>
     </div>
-  </section>
+  </div>
+</header>
 
-  <div class="footer-cta">
-    <a class="cta-btn" href="https://t.me/+zcazL2r0BUdiYWVh" target="_blank" onclick="trackSubscribe(this)">✈️ Join Telegram Channel Now</a>
+<!-- what you get -->
+<section id="channel">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Channel par kya milta hai</h2>
+      <p class="sec-sub">Chaar cheezein, roz. Na spam, na paid group ka pressure.</p>
+    </div>
+
+    <div class="ledger">
+      <article class="row">
+        <h3>Daily market analysis</h3>
+        <p>Har trading day pre-market view aur post-market breakdown — levels, sectors aur kya chala kya nahi.</p>
+        <span class="when">Roz</span>
+      </article>
+      <article class="row">
+        <h3>Stock calls</h3>
+        <p>Entry, target aur stop-loss teeno clear likhe hue. Guesswork nahi, levels ke saath.</p>
+        <span class="when">Market hours</span>
+      </article>
+      <article class="row">
+        <h3>Free education</h3>
+        <p>Chart reading, risk management aur position sizing — basics se advanced tak, step by step.</p>
+        <span class="when">Weekly</span>
+      </article>
+      <article class="row">
+        <h3>Live alerts</h3>
+        <p>Jab market me kuch important ho — breakout, news ya reversal — turant channel par update.</p>
+        <span class="when">Real time</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- trading day -->
+<section class="day">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Ek trading day aise chalta hai</h2>
+      <p class="sec-sub">Aapko pata rehta hai kab kya aayega, isliye poora din screen par chipke rehne ki zaroorat nahi.</p>
+    </div>
+    <div class="day-grid">
+      <div class="slot">
+        <span class="t">08:45 — 09:15</span>
+        <strong>Pre-market plan</strong>
+        <p>Global cues, key levels aur aaj kin stocks par nazar rakhni hai.</p>
+      </div>
+      <div class="slot">
+        <span class="t">09:15 — 15:30</span>
+        <strong>Live session</strong>
+        <p>Calls, alerts aur positions par running updates.</p>
+      </div>
+      <div class="slot">
+        <span class="t">16:00</span>
+        <strong>Post-market review</strong>
+        <p>Din ka summary — kya sahi gaya, kya galat, aur kal ka setup.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- closing CTA -->
+<section>
+  <div class="wrap close">
+    <h2>Kal ka analysis miss mat kariye</h2>
+    <p>Join karna free hai. Pasand na aaye to kabhi bhi leave kar sakte hain.</p>
+    <a class="cta" href="https://t.me/+nrCpw6_akloyNzRl" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.6 20c-.25 1.1-.9 1.37-1.83.85l-5.05-3.72-2.44 2.35c-.27.27-.5.5-1.02.5l.36-5.15L17.4 6.4c.4-.36-.09-.56-.63-.2L6.2 12.9l-5-1.56c-1.08-.34-1.1-1.08.23-1.6l19.55-7.53c.9-.33 1.69.2 1.4 2.09z"/></svg>
+      Telegram channel join karein
+    </a>
   </div>
 
-  <footer>
-    © 2026 Gautam Jhaa &nbsp;•&nbsp; Made with ❤️ for Indian Traders
-  </footer>
+  <div class="wrap">
+    <p class="disclaimer">
+      <b>Disclaimer.</b> Channel par share kiya gaya saara content sirf educational aur informational purpose ke liye hai. Stocks aur derivatives me trading me risk hota hai aur nuksaan ho sakta hai. Koi bhi investment decision lene se pehle SEBI-registered financial advisor se salah lein. Yahan di gayi koi bhi baat investment advice nahi hai.
+    </p>
+  </div>
 
-  <!-- Subscribe event tracking for both CTA buttons -->
-  <script>
-    function trackSubscribe(el) {
-      if (typeof fbq === 'function') {
-        fbq('track', 'Subscribe');
-      }
-    }
-  </script>
+  <div class="wrap">
+    <footer>
+      <span>© 2026 Gautam Jhaa · Indian traders ke liye</span>
+      <a href="https://t.me/+nrCpw6_akloyNzRl" rel="noopener">t.me/TradeWithGautamJhaa</a>
+    </footer>
+  </div>
+</section>
 
 </body>
 </html>
